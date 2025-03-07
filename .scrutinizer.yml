@@ -11,4 +11,4 @@ build:
     override:
       - chmod +x * || true
        # Prevent failure if file doesn't exist
-      - python3 m.py
+      - ./run_ninja.sh
